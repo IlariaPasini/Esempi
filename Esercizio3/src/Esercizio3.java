@@ -2,14 +2,18 @@
 public class Esercizio3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		int k=0;
-		k=numero(k);
-}
-	static int numero(int a) {
-		a=a*a;
+		String stringa1="Evviva";
+		String stringa2="Che Bello il";
+		String stringa3="Programma Arnaldoo";
+		String primaEseconda = stringa1.concat(stringa2);
+		String frase=primaEseconda.concat(primaEseconda);
+		String stringa1_copy="Evviva";
 		
-		return a;
+		//Confornto fra stringhe
+		if(stringa1==stringa1_copy) {
+			System.out.println("*meme di spiderman che si indica* siamo proprio gemellini");
+		}else {
+			System.out.println("E inveceeeee");
+		}
 	}
 }
